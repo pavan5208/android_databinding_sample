@@ -14,4 +14,12 @@ class MainViewModel :ViewModel() {
             _userEmailLD.value = "test@gmail.com"
         }
     }
+
+    fun onUpdateReceived(number:Int){
+        if(number%2 == 0){
+            _userEmailLD.value = "android@gmail.com"
+        }else{
+            _userEmailLD.value = "test@gmail.com"
+        }
+    }
 }
