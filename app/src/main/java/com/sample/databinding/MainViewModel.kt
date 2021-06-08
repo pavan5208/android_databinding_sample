@@ -9,6 +9,8 @@ class MainViewModel :ViewModel() {
 
     val count = 1
 
+    val name = "Andro"
+
     fun onEmailChange(){
         if(_userEmailLD.value.equals("test@gmail.com")){
             _userEmailLD.value = "android@gmail.com"

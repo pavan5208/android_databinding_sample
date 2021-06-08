@@ -34,6 +34,15 @@
         <!--        android:text="@{edtInput.text}"-->
         <!--        android:text="@{@string/sample_format(viewModel.userEmailLD,edtInput.text)}"-->
 
+        <include
+            android:id="@+id/includedLayout"
+            layout="@layout/layout_common"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:viewModelInstance="@{viewModel}"
+           app:layout_constraintTop_toBottomOf="@+id/text_email"
+        />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

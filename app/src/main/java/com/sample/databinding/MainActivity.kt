@@ -22,5 +22,6 @@ class MainActivity : AppCompatActivity() {
             lifecycleOwner = this@MainActivity
             viewModel = mainViewModel
         }
+        binding.includedLayout.textView2.text = mainViewModel.name
     }
 }
