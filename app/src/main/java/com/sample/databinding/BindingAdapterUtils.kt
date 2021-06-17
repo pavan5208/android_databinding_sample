@@ -1,6 +1,7 @@
 package com.sample.databinding
 
 import android.view.View
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 
@@ -16,4 +17,18 @@ object BindingAdapterUtils {
     internal fun TextView.setData(data: String) {
         text = data
     }
+
+//    @JvmStatic
+//    @BindingAdapter("app:loadImageUrl")
+//    fun loadImageUrl(imageView: ImageView, url: String?) {
+//        Glide.with(imageView.context).load(url)
+//            .into(imageView)
+//    }
+//
+//    @JvmStatic
+//    @BindingAdapter("app:loadImageUrlData")
+//    fun ImageView.loadImageUrlData( url: String?) {
+//        Glide.with(this.context).load(url)
+//            .into(this)
+//    }
 }
