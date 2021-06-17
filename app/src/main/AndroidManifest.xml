@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_sample_databinding">
-        <activity android:name="com.sample.databinding.MainActivity">
+        <activity android:name="com.sample.databinding.TwoWayBindingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
